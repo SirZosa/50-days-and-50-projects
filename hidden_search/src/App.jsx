@@ -10,6 +10,7 @@ function App() {
   function changeSearch(e){
     if(e.keyCode == 13){
       setSearch(input)
+      e.target.value = ""
     }
   }
   function changeInput(e){
