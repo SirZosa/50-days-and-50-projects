@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157, 64, 245);
+}
+
+.container{
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.btn{
+    border: none;
+    background-color: rgb(86, 32, 136);
+    color: aliceblue;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    background-color: rgb(102, 38, 161);
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
